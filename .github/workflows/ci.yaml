@@ -63,7 +63,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repository: costallat/guestbook-go-config
+          repository: Costallat/guestbook-go-config
           token: ${{ secrets.CONFIG_GITHUB_TOKEN }}
 
       - name: Setup argocd-util
